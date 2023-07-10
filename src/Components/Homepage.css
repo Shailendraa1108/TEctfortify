@@ -1,0 +1,507 @@
+.containerone{
+    
+    background-image: linear-gradient(rgb(225, 240, 255), rgba(255, 255, 255, 0));
+  
+    width: 100%;
+   height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+
+.width-40{
+   
+width: 50%;
+height: 100%;
+
+
+}
+.width-50{
+    width: 45%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 -2%;
+ 
+
+}
+.widthone-25{
+    width: 15%;
+    height: 90%;
+ 
+    margin: 0 20px;
+}
+.widthtwo-25{
+    width: 15%;
+    height: 90%;
+   
+    margin: 0 20px;
+}
+.widththree-25{
+    width: 15%;
+    height: 80%;
+ 
+    margin: 0 20px;
+}
+.Ver-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+   
+   
+    
+   
+   
+   
+}
+.Ver-center h3{
+  font-size: 18px;
+
+
+}
+.Ver-center h1{
+    font-weight: 700;
+    font-size: 64px;
+
+
+}
+.Ver-center p{
+  font-size: 52px;
+  font-weight: 300;
+  margin-top: 30px;
+
+
+}
+div img{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    max-height: 450px;
+    transition: all 0.2s ease 0s;
+    transform: scale(1.2);
+}
+.button-knowmore{
+    background-color: rgb(9, 37, 50);
+    border-radius: 12px;
+    padding: 0px 40px;
+    width: fit-content;
+    text-decoration: none;
+    text-transform: none;
+    height: 60px;
+}
+
+@media screen and (max-width:768px) {
+    .Appcontainer{
+        height: 11vh !important;
+
+    }
+    .Appcontainer{
+        display: none !important;
+    }
+
+    div img{
+   
+    margin-top: -30% !important;
+    }
+    .MarquMedia{
+        display: flex !important;
+        width: 100% !important;
+        overflow: hidden ;
+        user-select: none;
+        mask-image: linear-gradient( to right, hsl(0 0% 0% / 0), hsl(0 0% 0% / 1) 10%, hsl(0 0% 0% / 1) 90%, hsl(0 0% 0% / 0) );
+    }
+    .partnerIMage img{
+        width: 86% !important;
+    }
+    .containeronefour{
+        flex-direction: column;
+    }
+    .containeronethree{
+        flex-direction: column !important;
+        position: absolute !important;
+        width: 100% !important;
+        gap: 36px !important;
+      
+    }
+    .width-50four{
+        width: 94% !important;
+    }
+    div .imgg2{
+   
+      display: none;
+    }
+    .Ver-centerfour{
+        display: flex;
+      
+    }
+    .Ver-center p{
+        font-size: 43px !important;
+    font-weight: 300 !important;
+    margin-top: 30px  !important;
+    line-height: 9rem !important;
+      
+      
+      }
+      .Ver-center h1{
+        font-weight: 700 !important;
+        font-size: 28px !important;
+    
+    
+    }
+    .Ver-center h3{
+        font-size: 37px !important;
+    line-height: 10rem !important;
+
+      
+      
+      }
+      .containeronetwo{
+        flex-direction: column;
+      }
+      .img1 {
+      width: 100% !important;
+    }
+    .flexbox p {
+        margin: 0px;
+        font-size: 16px !important;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+        color: rgb(9, 37, 50);
+    }
+    .centerflex6 h1{
+        
+        font-size: 39px !important;
+       
+      }
+      .centerflex6 p{
+       
+        font-size: 27px !important;
+       
+      }
+}
+
+/* width-30 and width-70 css start */
+.containeronetwo{
+    width: 100%;
+    min-height: 70vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   
+    flex-wrap: wrap;
+    
+}
+
+
+
+.grand_parant{
+    width: 100%;
+    height: auto;
+   
+  }
+  .parent{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+    padding: 10px;
+    gap: 20px;
+
+  }
+
+  .child{
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 20px #bac3c3;
+    
+   
+  }
+  .child img{
+    width: 334px;
+    height: 334px;
+    /* object-fit: cover; */
+   
+    object-fit: cover;
+   z-index: 1000;
+    margin: 32px;
+
+   
+  }
+
+@media screen and (max-width:768px) {
+    /* section 3 Assume */
+    .containeronethree {
+       
+        height: 90vh !important;
+    }
+    .grand_parant{
+        height: auto;
+    }
+    
+}
+  .po15{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background-color: hsl(83, 100%, 51%);
+  }
+  .re15{
+    position: relative;
+    width: 80%;
+    height: 70vh;
+    background-color: #03e2ff;
+ 
+  }
+.width-60{
+    width: 60%;
+    height: 80%;
+   
+   
+}
+.img1{
+    width: 500px;
+    height: 500px;
+}
+.flexbox{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.flexbox h3{
+    margin: 0px;
+    font-size: 42px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.167;
+    letter-spacing: 0em;
+    color: rgb(9, 37, 50);
+}
+.flexbox p{
+    margin: 0px;
+    font-size: 30px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(9, 37, 50);
+}
+.Ver-centertwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.Ver-centerfour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+
+/* section containerwidth33 apply csss start */
+.containeronethree{
+    width: 100%;
+    min-height: 20vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative !important;
+    flex-wrap: wrap;
+    
+}
+.width33{
+    min-width:  28%;
+    background-color: beige;
+    min-height: 20%;
+position: relative;
+    margin: 0 20px;
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+   
+
+}
+.Ver-centerthree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+.plusitem{
+    padding: 1rem 1rem;
+    margin: 0px;
+   
+    /* color: linear-gradient(90deg, rgb(4, 59, 255), rgb(69, 217, 45)); */
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+ 
+  
+ 
+    
+   
+   
+}
+.plusitem h1{
+    color: linear-gradient(90deg, rgb(4, 59, 255), rgb(69, 217, 45));
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.plusitem p{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.167;
+    letter-spacing: -0.01562em;
+
+}
+/* Starta coordian */
+.accordion {
+    max-width: 700px;
+    margin: 30px auto 0;
+    border-radius: 18px;
+    background: #f1f1f1;
+}
+
+.accordion-visible {
+    background-color: rgb(9, 37, 50);
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    color: #fff;
+   
+    border: 1px solid #474d9b;;
+   
+
+   
+}
+.accordion-visible span {
+    padding: 15px 0;
+    font-size: 20px;
+}
+.accordion-visible img {
+    width: 20px;
+    transform: rotate(-90deg);
+    transition: transform 0.2s ease-in-out;
+}
+.accordion-visible img.active {
+    transform: rotate(0deg)
+}
+
+.accordion-visible h2 {
+    font-size: 20px;
+}
+
+.accordion-toggle {
+    height: 29vh;
+    font-size: 18px;
+    opacity: 0;
+    transition:  
+    opacity 0.3s ease-in-out,
+    height 0.3s 0.3s ease-in-out;
+    color: #333;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.animated {
+    opacity: 1;
+    transition:  
+    height 0.3s ease-in-out,
+    opacity 0.3s 0.3s ease-in-out;
+}
+
+.accordion-toggle p {
+    margin: 0;
+    padding: 22px 15px;
+    pointer-events: none;
+    line-height: 1.3;
+}
+
+/*  */
+/* Marque css start  */
+ 
+/* new marque css */
+
+  /* .width100{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+  }
+  .width80{
+width: 80%;
+height:80px ;
+background-color: antiquewhite;
+position: relative;
+  } */
+
+
+  /* div6-width100 css start */
+
+  .div6-width100{
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+    
+  }
+  .divinnerboxwidth80{
+    width: 80%;
+    height: auto;
+    /* background-color: #fff; */
+    
+  }
+  .centersection6{
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    height: auto;
+   
+  }
+  .centerflex6{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    height: auto;
+    
+  }
+  .centerflex6 h1{
+    margin: 0px;
+    font-size: 60px;
+    color: rgb(9, 37, 50);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.167;
+    letter-spacing: -0.01562em;
+    margin: 5%;
+  }
+  .centerflex6 p{
+    margin: 0px;
+    font-size: 24px;
+    color: rgb(9, 37, 50);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+    font-weight: 400;
+    margin: 4%;
+  }
