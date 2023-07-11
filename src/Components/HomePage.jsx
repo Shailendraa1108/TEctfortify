@@ -180,8 +180,11 @@ function HomePage() {
           </div>
         </div>
       </section>
+
       <section className="hero2">
         <div className="containeronefour">
+          
+         
           <div
             className="width-50four"
             initial={{ opacity: 0 }}

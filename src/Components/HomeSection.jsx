@@ -7,7 +7,7 @@ function HomeSection() {
   return (
     <>
       <div className="WholeBackground">
-        <section>
+        {/* <section>
           <div className="po">
             <div className="centersection_7">
               <div className="re">
@@ -21,178 +21,8 @@ function HomeSection() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section>
-          <div className="po8">
-            <div className="centersection_8">
-              <div className="re8">
-                <div className="centertext__8">
-                  <div>
-                    <h1>Our Design Flow Services </h1>
-                    <h1>That Lead The Way</h1>
-                    <p>
-                      In the connected world, we assist brands and companies in
-                      gaining a competitive advantage. In the connected world,
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div className="po9">
-            <div className="centersection_9">
-              <div className="re9">
-                <div className="centertext__9">
-                  <div className="center_text9">
-                    <div className="Designlogo2">
-                      <div className="DesignLOgo">
-                        <img
-                          width="36px"
-                          src="https://www.okoders.com/static/media/designStudio.b1e1d31585171f0ab5069409893c77fb.svg"
-                          alt="tect"
-                        />
-                      </div>
-                      <h1>UI/UX Desiging</h1>
-                      <p>
-                        Having a professionally designed website legitimises the
-                        intentions of your business.
-                      </p>
-                    </div>
-
-                    <div>
-                      <div className="DesignLOgo">
-                        <img
-                          width="36px"
-                          src="https://www.okoders.com/static/media/designStudio.b1e1d31585171f0ab5069409893c77fb.svg"
-                          alt="tect"
-                        />
-                      </div>
-                      <h1>UI/UX Desiging</h1>
-                      <p>
-                        Having a professionally designed website legitimises the
-                        intentions of your business.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* section 10 */}
-
-        <section>
-          <div className="po10">
-            <div className="centersection_10">
-              <div className="re10">
-                <div className="centertext__10">
-                  <div>
-                    <div>
-                      <h1>Custom Software Development</h1>
-                      <p>
-                        Okoders cater to any of your technology solutions with
-                        an agile approach and seamless deployment. We sell
-                        solutions to your complexities and not mere products
-                      </p>
-                    </div>
-                    <div className="button_btn">
-                      <button className="button-knowmore">
-                        {" "}
-                        <span>KNOW MORE</span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* section 11 */}
-
-        <section>
-          <div className="po11">
-            <div className="centersection_11">
-              <div className="re11">
-                <div className="centerIMage">
-                  <img
-                    src="https://www.datocms-assets.com/58969/1676279560-desky.jpg"
-                    alt=""
-                    width="80%"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* 12 */}
-        <section>
-          <div className="po12">
-            <div className="centersection_12">
-              <div className="re12">
-                <div className="centertext__8">
-                  <div
-                    className="ImageResponsive"
-                    style={{
-                      flexWrap: "wrap",
-                      display: "flex",
-                      justifyContent: "space-around",
-                      marginRight: "50px",
-                      gap: "20%",
-                    }}
-                  >
-                    <div className="ManangePadding">
-                      <img
-                        src="https://www.okoders.com/static/media/customBrand.848587460ac9552f743fa09faf2b6ee4.svg"
-                        alt=""
-                        className="Brand"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://www.okoders.com/static/media/customeHome.564076b1ca1a00a5637b1e651b2be483.svg"
-                        alt=""
-                        className="Brand"
-                      />
-                    </div>
-
-                    <div>
-                      <img
-                        src="https://www.okoders.com/static/media/customClassic.636ab72e0e9187e933743c2ea93bbfe5.svg"
-                        alt=""
-                        className="Brand"
-                      />
-                    </div>
-
-                    <div>
-                      <img
-                        src="https://www.okoders.com/static/media/customeVS.f4f39d7ff390e347cef6d95828404327.svg"
-                        alt=""
-                        className="Brand"
-                      />
-                    </div>
-
-                    <div>
-                      <img
-                        src="https://www.okoders.com/static/media/customNature.23ceb722b99b5c3371078481cfe8ee3c.svg"
-                        alt=""
-                        className="Brand"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* 13 */}
-        {/* empty */}
-        {/* 14 */}
         <section>
           <div className="grand_parant">
             <div className="boxCenter">
@@ -231,79 +61,316 @@ function HomeSection() {
             </div>
           </div>
         </section>
-        {/* 15 */}
         <section>
-          <div className="po15">
-            <div className="centersection_8">
-              <div className="re15">
-                <div className="centertext__8">
+          <div className="po10">
+            <div className="centersection_10">
+              <div className="re10">
+                <div className="centertext__10">
                   <div>
-                    <h1>Utilize Okoders To Create Remote </h1>
-                    <h1> Engineering Teams</h1>
-                    <div className="button_btn">
-                      <button className="button-knowmore">
-                        {" "}
-                        <span>KNOW MORE</span>
-                      </button>
+                    <div>
+                      <h1>Custom Software Development</h1>
+                      <p>
+                        <b> Tecfotify</b> cater to any of your technology
+                        solutions with an agile approach and seamless
+                        deployment. We sell solutions to your complexities and
+                        not mere products
+                      </p>
                     </div>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                      }}
-                    >
-                      <img
-                        src="https://www.okoders.com/static/media/homeRemoteTeamImage.00888cf9ffc89b09859f.png"
-                        alt=""
-                        width="90%"
-                      />
+                    <div>
+                      <div className="button_btn">
+                        <button className="button-knowmore">
+                          {" "}
+                          <span>KNOW MORE</span>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-             
               </div>
             </div>
           </div>
         </section>
+        {/* 15 */}
+        <div className="grandDiv">
+          <div className="chidldiv">
+            <div className="InnerDiv">
+              <img
+                src="https://www.okoders.com/static/media/Home_userBuild.e7ac91ec909bb34f5924995d0ba769d0.svg"
+                alt="tech"
+                width="100%"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* section 16 */}
+
+        <section className="home">
+          <div className="home2">
+            <div className="home_text">
+              <h1>Get a Professional Team</h1>
+              <p>
+                <b> Tecfortify</b> is your key to hiring the best talent and
+                scaling fast while keeping a check on your budget. With us, your
+                company doesn't have to invest its precious time in talent
+                hunting, reviewing and retaining the talent. We are the best
+                staff augmentation company dedicated to building and managing
+                remote software development teams across the world in the most
+                cost-effective way.
+              </p>
+            </div>
+            <div className="hero_img">
+              <img
+                src="https://www.okoders.com/static/media/getProfesionalTeam.9451d5dcdd43a8a0b693.png"
+                alt="tec"
+              />
+            </div>
+          </div>
+        </section>
+        <section className="startLeftMangae">
+          <div
+            className="center_text"
+            style={{ textAlign: "center", fontWeight: "800", fontSize: "30px" }}
+          >
+            <h1>Services</h1>
+            <h2>Our Services Menu</h2>
+          </div>
+
+          <div className="categories-content">
+            <div className="box">
+              <div
+                className="box-IMage"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "right",
+                  width: "100%",
+                }}
+              >
+                <img
+                  src="https://www.okoders.com/static/media/Rajeev.634dd77a3597cb1d0df7.png"
+                  alt="tec"
+                  style={{
+                    height: "100px",
+                    width: "100px",
+                    borderRadius: "50%",
+                  }}
+                />
+              </div>
+
+              <h1 style={{}}>Web devlopment</h1>
+              <p>I create diffrent types of devlopment </p>
+            </div>
+            <div>
+              <button className="button-knowmore">
+                {" "}
+                <span
+                  style={{
+                    color: "white",
+                    fontWeight: "600",
+                    fontSize: "20px",
+                  }}
+                >
+                  Join Our Team
+                </span>
+              </button>
+            </div>
+            <div className="box">
+              <div
+                className="box-IMage"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "right",
+                  width: "100%",
+                }}
+              >
+                <img
+                  src="https://www.okoders.com/static/media/Rajeev.634dd77a3597cb1d0df7.png"
+                  alt="tec"
+                  style={{
+                    height: "100px",
+                    width: "100px",
+                    borderRadius: "50%",
+                  }}
+                />
+              </div>
+
+              <h1>Web devlopment</h1>
+              <p>I create diffrent types of devlopment </p>
+            </div>
+            <div className="button_btn">
+              <button className="button-knowmore">
+                {" "}
+                <span
+                  style={{
+                    color: "white",
+                    fontWeight: "600",
+                    fontSize: "20px",
+                  }}
+                >
+                  Join Our Team
+                </span>
+              </button>
+            </div>
+            <div className="box">
+              <div
+                className="box-IMage"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "right",
+                  width: "100%",
+                }}
+              >
+                <img
+                  src="https://www.okoders.com/static/media/Rajeev.634dd77a3597cb1d0df7.png"
+                  alt="tec"
+                  style={{
+                    height: "100px",
+                    width: "100px",
+                    borderRadius: "50%",
+                  }}
+                />
+              </div>
+
+              <h1>Web devlopment</h1>
+              <p>I create diffrent types of devlopment </p>
+            </div>
+            <div className="button_btn">
+              <button className="button-knowmore">
+                {" "}
+                <span
+                  style={{
+                    color: "white",
+                    fontWeight: "600",
+                    fontSize: "20px",
+                  }}
+                >
+                  Join Our Team
+                </span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="Section_18">
+            <div className="sectio_18_child">
+              <div>
+                <img
+                  src="https://www.okoders.com/static/media/enquiryImage.974bc4316593ca880428ba5ea041b1b6.svg"
+                  alt="tect"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* form section start */}
+
+        <section>
+          <form>
+            <div className="form">
+              <div className="form-center">
+                <div className="form-text">
+                  <div className="width40">
+                    <div className="contact">
+                      <h1>CONTACT US</h1>
+                    </div>
+                    <div>
+                      <label required>FullName</label>
+                      <input placeholder="fullname" type="text" />
+                    </div>
+                    <div>
+                      <label required>Email id</label>
+                      <input placeholder="Email" type="text" />
+                    </div>
+                    <div>
+                      <label required>Phone Number (optional)</label>
+                      <input placeholder="Phone Number" type="text" />
+                    </div>
+
+                    <div>
+                      <label>Description</label>
+                      <textarea
+                        id="w3review"
+                        name="w3review"
+                        rows="4"
+                        cols="50"
+                      >
+                        {" "}
+                        all web development technologies.
+                      </textarea>
+                    </div>
+                    <div></div>
+                    <button className="button-knowmore">
+                      {" "}
+                      <span
+                        style={{
+                          color: "white",
+                          fontWeight: "600",
+                          fontSize: "20px",
+                        }}
+                      >
+                        Send Messege
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </section>
+
+        <footer>
+          <div className="footercontainer">
+            <div className="footerchild1">
+              <div className="Box">
+                <h1>Tecfotify</h1>
+                <p>
+                  <b style={{fontSize:"30px"}}>TECFORTIFY</b> is an award winning Custom Software Development
+                  Company based in Gurugram, India.
+                </p>
+                <h1>info@okoders.com</h1>
+                <h1>info@okoders.com</h1>
+                <p>
+                  <span>Address:</span> Magnum Towers, Sector-58 Gurgaon,
+                  Haryana, IN
+                </p>
+                <div>
+                  <p>Privacy Policy</p>
+                  <p>Terms</p>
+                  <p>2023 OKoders. All rights reserved.</p>
+                </div>
+              </div>
+
+              <div className="Box2">
+                <h1>UseFull Link</h1>
+                <ul>
+                  <li>Custom Software</li>
+                  <li>Custom Software</li>
+                  <li>Custom Software</li>
+                  <li>Custom Software</li>
+                  <li>Custom Software</li>
+                </ul>
+              </div>
+
+              <div className="Box3">
+                <h1>Who are you?</h1>
+                <ul>
+                  <li>About us</li>
+                  <li>About us</li>
+                  <li>About us</li>
+                  <li>About us</li>
+                  <li>About us</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );
 }
 
 export default HomeSection;
-// <div className="flex-8ksection">
-// <div className="cenFlex8">
-// <div className="Icon__center_8">
-
-//    <img
-//    width="36px"
-
-//      src="https://www.okoders.com/static/media/designStudio.b1e1d31585171f0ab5069409893c77fb.svg"
-//      alt="tect"
-//    />
-
-//    <h1>UI/UX Desiging</h1>
-//    <p>
-//      Having a professionally designed website legitimises the
-//      intentions of your business.
-//    </p>
-//  </div>
-// </div>
-// <div className="cenFlex8">
-// <div>
-//   <img
-//   width="36px"
-//     src="https://www.okoders.com/static/media/designStudio.b1e1d31585171f0ab5069409893c77fb.svg"
-//     alt="tect"
-//   />
-//   <h1>UI/UX Desiging</h1>
-//   <p>
-//     Having a professionally designed website legitimises the
-//     intentions of your business.
-//   </p>
-// </div>
-// </div>
-
-// </div>

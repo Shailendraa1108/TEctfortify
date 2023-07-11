@@ -52,7 +52,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 57vh !important;
+        height: 100vh !important;
     }
     /* section 10 end */
     /* section 11 start */
@@ -323,7 +323,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+height: auto !important;
   
   }
   .Brand{
@@ -349,7 +349,7 @@
 
 .containeronefour{
     width: 100%;
-    min-height: 90vh;
+   
      display: flex;
      align-items: center;
      justify-content: center;
@@ -362,7 +362,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: auto;
 }
 .width-40{
     width: 40%;
@@ -531,27 +531,407 @@ background-color: black;
 
    
   }
- 
-@media screen and (max-width:768px) {
-    .grand_parant{
-        height: auto;
-    }
-    
-}
+  /* secion 15 */
   .po15{
-  
+ 
     width: 100%;
     height: auto;
-   
+     
   }
   .re15{
- 
+
     width: 80%;
     height: auto;
    
  
   }
+  .centersection_15{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    flex-wrap: wrap;
+  }
+  .centertext__15{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+  }
+ 
+@media screen and (max-width:768px) {
+    .grand_parant{
+        height: auto;
+        margin-top: 8rem;
+    }
+    .centersection6 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh !important;
+  }
+  .home_text p {
+    margin: 0px;
+    font-size: 31px !important;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(9, 37, 50);
+    width: 100% !important;
+}
+    /* start new css */
+    .grandDiv{
+display: none;
+    }
+    
+}
+ 
+
+
+
+
+
+
+
+
+
+
+/* Start new css */
+.grandDiv{
+  width: 100%;
+  height: auto;
+
+
+}
+.InnerDiv{
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  
  
  
+ 
+
+}
+.chidldiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chidldiv img{
   
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+    transition: all 0.2s ease 0s;
+    transform: scale(1);
+
+}
+ 
+ 
+ 
+  /* section 16 apply css */
+  .width_sec_16{
+    width: 100%;
+    height: 90vh;
+    background-color: red;
+    position: absolute
+
+  }
+  .Innerwith_sec_16{
+    position: relative;
+    width: 90%;
+    height: 80vh;
+    background-color: green;
+    display: flex;
+    align-items: content;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .child_sec_16{
+    width: 40%;
+    background-color: blue;
+    
+   
+   
+  }
+  .center_Innrebox_16{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .child_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home{
+    padding: 85px 18% 65px;
+
+  }
+  .startLeftMangae{
+    padding: 85px 18% 65px;
+  }
+  .home2{
+    position: relative;
+    width: 100%;
+    height: auto;
+   display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    order: 1;
+  }
+  .hero_img img{
+    height: auto;
+    width: 100%;
+  }
+  .home_text h1{
+    padding: 10px;
+    margin: 0px;
+    font-size: 62px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    color: rgb(9, 37, 50);
+    font-weight: 700;
+  }
+  .home_text p{
+    margin: 0px;
+    padding: 10px;
+    font-size: 31px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(9, 37, 50);
+  }
+  .categories-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    align-items: center;
+    text-align: center;
+   
+  }
+  .box{
+    padding: 4rem;
+  }
+  .box-IMage{
+    padding: 3rem;
+  }
+  .box h1{
+    margin: 0px;
+  
+    font-size: 36px;
+    color: rgb(9, 37, 50);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    text-align: center;
+  }
+  .box p{
+    margin: 0px;
+    font-size: 18px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    color: rgb(9, 37, 50);
+  }
+
+  /* section 18 start css */
+
+  .Section_18{
+    width: 100%;
+  
+    height: auto;
+  }
+  .sectio_18_child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    
+  }
+  /* form section */
+  .form{
+    width: 100%;
+    height: 90vh;
+    
+  }
+  .form-text{
+width: 80%;
+height: 90vh;
+
+justify-content: center;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+
+  }
+  .form-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .width40{
+   
+   
+   width: 70%;
+   height: auto;
+  padding: 1rem;
+
+
+  }
+  .width40 input{
+    width: 100%;
+    padding: 2rem;
+   margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+
+  }
+  .width40 label{
+  font-size: 15px;
+
+  }
+  .width40 textarea{
+    width: 100%;
+    padding: 1rem;
+   margin: 10px 0;
+    border-radius: 8px;
+
+  }
+  .contact{
+    padding: 5rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  @media screen and (max-width:768px) {
+    .width40{
+      width: 98% !important;
+     
+  
+    }
+   .hero2{
+    flex-direction: column !important;
+   }
+   .hero_img img{
+    height: auto;
+    width: 100%;
+    margin-top: -3rem;
+  }
+  .startLeftMangae {
+    padding: 85px 10% 65px !important;
+}
+  .sectio_18_child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: auto; */
+    /* width: 81%; */
+    transform: scale(0.2) !important;
+    transition: 0.9s m !important;
+    height: 10vh !important;
+}
+
+  }
+
+  /* Footer start csss */
+  .footercontainer{
+    width: 100%;
+    height: 90vh;
+    -index: 3000;
+    background-color: rgb(9, 37, 50);
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+  }
+  .footerchild1{
+    width: 90%;
+    height: 80vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+  }
+
+  .Box p{
+    margin: 0px;
+    font-size: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(253, 242, 242);
+    padding: 1rem;
+  }
+  .Box h1{
+    margin: 0px;
+    font-size: 30px;
+    padding: 1rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(12, 10, 10);
+  }
+  .Box2 h1{
+    margin: 0px;
+    font-size: 30px;
+    padding: 2rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(12, 10, 10);
+    
+  }
+  .Box2 ul li{
+    margin: 0px;
+    font-size: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(253, 242, 242);
+    padding: 2rem;
+  }
+  .Box3 h1{
+   
+    margin: 0px;
+    font-size: 30px;
+    padding: 2rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(12, 10, 10);
+  }
+  .Box3 ul li{
+   
+    margin: 0px;
+    font-size: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(253, 242, 242);
+    padding: 2rem;
+  }
