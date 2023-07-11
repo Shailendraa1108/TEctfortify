@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import HomePage from "./Components/HomePage"
 import Navbar from "./Components/Navbar"
+import CustomSoftware from "./Components/CustomSoftware"
 
 // import About from "./components/about/About"
 // import CourseHome from "./components/allcourses/CourseHome"
@@ -21,7 +22,7 @@ function App() {
       <Navbar/>
         <Switch>
        <Route path="/" exact component={HomePage}/>
-       {/* <Route path="/" exact component={Home}/> */}
+       <Route path="/customsoftware" exact component={CustomSoftware}/>
      
           
         </Switch>

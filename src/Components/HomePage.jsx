@@ -66,10 +66,7 @@ function HomePage() {
     <>
       <section className="hero">
         <div className="containerone">
-          <div
-            className="width-50"
-           
-          >
+          <div className="width-50">
             <div className="Ver-center">
               <div>
                 <h3>TECFORTIFY</h3>
@@ -118,31 +115,29 @@ function HomePage() {
         </div>
       </section>
       <section>
-          <div className="grand_parant">
-            <div className="boxCenter">
+        <div className="grand_parant">
+          <div className="boxCenter">
             <div className="parent">
               <div className="child">
-              <div>
-              <img src='images/blog-1.jpg' alt="tect"/>
-              </div>
+                <div>
+                  <img src="images/blog-1.jpg" alt="tect" />
+                </div>
               </div>
               <div className="child">
-              <div>
-              <img src='images/blog-1.jpg' alt="tect"/>
-              </div>
+                <div>
+                  <img src="images/blog-1.jpg" alt="tect" />
+                </div>
               </div>
 
               <div className="child">
-              <div>
-              <img src='images/blog-1.jpg' alt="tect"/>
+                <div>
+                  <img src="images/blog-1.jpg" alt="tect" />
+                </div>
               </div>
-              </div>
-           
             </div>
-            </div>
-          
           </div>
-        </section>
+        </div>
+      </section>
       <section className="hero3">
         <div className="containeronethree">
           <div
@@ -183,8 +178,6 @@ function HomePage() {
 
       <section className="hero2">
         <div className="containeronefour">
-          
-         
           <div
             className="width-50four"
             initial={{ opacity: 0 }}
@@ -321,39 +314,33 @@ function HomePage() {
         </Wrapper>
       </AppContainer>
 
-      
       <section>
         <div className="div6-width100">
           <div className="centersection6">
             <div className="divinnerboxwidth80">
-                <div className="centerflex6">
-              <div >
-                <h1 style={{textAlign:"center"}}>Design for User, Build To Scale</h1>
-                <p style={{textAlign:"center",width:"100%"}}>
-                  We thrive at the intersection of design and business, and
-                  craft beautiful andfunctional<br/> experiences that can be
-                  launched quickly.
-                </p>
-                <div  style={{textAlign:"center"}}>
-                <button className="button-knowmore">
-                  {" "}
-                  <span>KNOW MORE</span>
-                </button>
+              <div className="centerflex6">
+                <div>
+                  <h1 style={{ textAlign: "center" }}>
+                    Design for User, Build To Scale
+                  </h1>
+                  <p style={{ textAlign: "center", width: "100%" }}>
+                    We thrive at the intersection of design and business, and
+                    craft beautiful andfunctional
+                    <br /> experiences that can be launched quickly.
+                  </p>
+                  <div style={{ textAlign: "center" }}>
+                    <button className="button-knowmore">
+                      {" "}
+                      <span>KNOW MORE</span>
+                    </button>
+                  </div>
                 </div>
-              
-              </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-<HomeSection/>
-
-
-
-
-      
-     
+      <HomeSection />
     </>
   );
 }

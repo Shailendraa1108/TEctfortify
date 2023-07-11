@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 8, 51, 0.6), rgba(0, 8, 51, 0.6)),
+    url("../../public/images/girlCustom.jpg");
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Search-bar {
+  width: 100%;
+  max-width: 700px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+}
+.Search-bar input {
+  outline: none;
+  flex: 1;
+  padding: 1rem;
+  border: none;
+}
+
+.btn {
+  background-color: rgb(9, 37, 50);
+  border-radius: 12px;
+  padding: 0px 40px;
+  width: fit-content;
+  text-decoration: none;
+  text-transform: none;
+  height: 60px;
+}
+
+/* custom 2 div css */
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(4, 6, 17, 0.6)),
+    url("https://www.okoders.com/static/media/customHeader.5cc649b0128b3fe10e8c528973437d64.svg");
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.containerbox4 {
+  padding: 60px 18% 56px;
+  background-image: linear-gradient(rgba(0, 8, 51, 1.6), rgba(0, 8, 51, 6.1)),
+    url("../../public/images/laptop-half-closed-dark-with-colourful-glow-glasses-paper-cup.jpg");
+  min-height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container3 {
+  padding: 60px 18% 56px;
+  background-image: linear-gradient(rgba(0, 8, 51, 0.6), rgba(0, 8, 51, 6.1)),
+    url("../../public/images/laptop-half-closed-dark-with-colourful-glow-glasses-paper-cup.jpg");
+  min-height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 60vh;
+  flex-wrap: wrap;
+}
+.box2 {
+  width: 300px;
+  border-style: solid;
+  border-top: none;
+  border-right: 1px solid white;
+  border-left: none;
+  border-bottom: none;
+  border-color: white;
+}
+.box2 span {
+  margin: 0px;
+  font-size: 70px;
+  color: rgb(53 91 108);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
+}
+.box2 h1 {
+  margin: 0px;
+  font-size: 20px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: white;
+}
+
+/* section 4 custom */
+.grandParent4 {
+  width: 100%;
+  height: auto;
+}
+
+.child4 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child1 {
+  background-color: rgb(248, 170, 0);
+}
+.child2 {
+  background-color: rgb(235, 0, 243);
+}
+.child3 {
+  background-color: rgb(157, 75, 250);
+}
+.child4 {
+  background-color: rgb(34, 235, 27);
+}
+.child5 {
+  background-color: rgb(149, 236, 255);
+}
+.child6 {
+  background-color: rgb(211, 255, 16);
+}
+.child7 {
+  background-color: rgb(253, 206, 219);
+}
+.child8 {
+  background-color: rgb(253, 196, 73);
+}
+.child9 {
+  background-color: rgb(255, 0, 128);
+}
+.child4 h1 {
+  margin: auto 5rem;
+}

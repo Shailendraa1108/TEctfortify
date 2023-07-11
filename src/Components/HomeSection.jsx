@@ -291,7 +291,7 @@ function HomeSection() {
 
                     <div>
                       <label>Description</label>
-                      <textarea
+                      {/* <textarea
                         id="w3review"
                         name="w3review"
                         rows="4"
@@ -299,7 +299,7 @@ function HomeSection() {
                       >
                         {" "}
                         all web development technologies.
-                      </textarea>
+                      </textarea> */}
                     </div>
                     <div></div>
                     <button className="button-knowmore">
@@ -327,8 +327,9 @@ function HomeSection() {
               <div className="Box">
                 <h1>Tecfotify</h1>
                 <p>
-                  <b style={{fontSize:"30px"}}>TECFORTIFY</b> is an award winning Custom Software Development
-                  Company based in Gurugram, India.
+                  <b style={{ fontSize: "30px" }}>TECFORTIFY</b> is an award
+                  winning Custom Software Development Company based in Gurugram,
+                  India.
                 </p>
                 <h1>info@okoders.com</h1>
                 <h1>info@okoders.com</h1>
@@ -364,7 +365,6 @@ function HomeSection() {
                   <li>About us</li>
                 </ul>
               </div>
-
             </div>
           </div>
         </footer>

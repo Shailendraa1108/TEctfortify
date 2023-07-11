@@ -13,24 +13,23 @@ const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <>
-      <nav className="main-nav" >
+      <nav className="main-nav">
         {/* 1st logo part  */}
-     
-       <div className="logo">
-       <NavLink to="/">
-          <h2>
-            <span>T</span>ECFORTIFY
-         
-          </h2>
+
+        <div className="logo">
+          <NavLink to="/">
+            <h2>
+              <span>T</span>ECFORTIFY
+            </h2>
           </NavLink>
         </div>
- 
 
         {/* 2nd menu part  */}
         <div
           className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
-          }>
+          }
+        >
           <ul>
             <li>
               <NavLink to="/customsoftware">CUSTOM SOFTWARE</NavLink>
@@ -53,21 +52,24 @@ const Navbar = () => {
             <li>
               <a
                 href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
+                target="_thapa"
+              >
                 <FaFacebookSquare className="facebook" />
               </a>
             </li>
             <li>
               <a
                 href="https://www.instagram.com/thapatechnical/"
-                target="_thapa">
+                target="_thapa"
+              >
                 <FaInstagramSquare className="instagram" />
               </a>
             </li>
             <li>
               <a
                 href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
+                target="_thapa"
+              >
                 <FaYoutubeSquare className="youtube" />
               </a>
             </li>
