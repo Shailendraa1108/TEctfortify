@@ -1,0 +1,12 @@
+.Section_18{
+    width: 100%;
+  
+    height: auto;
+  }
+  .sectio_18_child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    
+  }

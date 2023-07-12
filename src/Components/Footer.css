@@ -1,0 +1,87 @@
+.footercontainer{
+    width: 100%;
+    height: auto;
+    -index: 3000;
+    background-color: rgb(9, 37, 50);
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+  }
+  .footerchild1{
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+  }
+
+  .Box p{
+    margin: 0px;
+    font-size: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(253, 242, 242);
+    padding: 1rem;
+  }
+  .Box h1{
+    margin: 0px;
+    font-size: 30px;
+    padding: 1rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(12, 10, 10);
+  }
+  .Box2 h1{
+    margin: 0px;
+    font-size: 30px;
+    padding: 2rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(12, 10, 10);
+    
+  }
+  .Box2 ul li{
+    margin: 0px;
+    font-size: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(253, 242, 242);
+    padding: 2rem;
+  }
+  .Box3 h1{
+   
+    margin: 0px;
+    font-size: 30px;
+    padding: 2rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(12, 10, 10);
+  }
+  .Box3 ul li{
+   
+    margin: 0px;
+    font-size: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgb(253, 242, 242);
+    padding: 2rem;
+  }

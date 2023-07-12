@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import HomePage from "./Components/HomePage"
 import Navbar from "./Components/Navbar"
 import CustomSoftware from "./Components/CustomSoftware"
+import OutSourcing from "./Components/OutSourcing/OutSourcing"
 
 // import About from "./components/about/About"
 // import CourseHome from "./components/allcourses/CourseHome"
@@ -23,6 +24,7 @@ function App() {
         <Switch>
        <Route path="/" exact component={HomePage}/>
        <Route path="/customsoftware" exact component={CustomSoftware}/>
+       <Route path="/outsourcing" exact component={OutSourcing}/>
      
           
         </Switch>

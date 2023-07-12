@@ -1,0 +1,128 @@
+@media screen and (max-width:768px) {
+    .outsoucingsec_2 img {
+       width: 50%  !important;
+    }
+    .smallcontainer h1{
+        font-size: 30px !important;
+        margin: auto -3rem !important;
+    }
+    .ContainerFlex{
+        flex-direction: column !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .outsoucingsec_2 img {
+       width: 100%  !important;
+    }
+    .smallcontainer h1{
+        font-size: 30px !important;
+        margin: auto -3rem !important;
+    }
+}
+
+
+
+.out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 8, 51, 0.6), rgba(0, 8, 51, 6.1)),
+    url("../../../public/images/main-banner-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}
+.search{
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px;
+   
+  
+
+   
+   
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.search input{
+    outline: none;
+    flex: 1;
+    padding: 1rem;
+    border: none;
+}
+.outsoucingsec_2{
+    
+    align-items: center;
+    justify-content: center;
+    background-image: 
+    linear-gradient(rgba(0, 8, 51, 0.6), rgba(0, 8, 51, 1.1)),
+    url(../../../public/images/portrait-smart-adult-woman-working-laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 90vh;
+}
+.outsoucingsec_2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 30%;
+   object-fit: cover;
+    box-shadow: rgba(255, 255, 255, 1.897) 9px 5px 15px;
+}
+.container_three{
+    width: 100%;
+    height: auto;
+   
+   
+}
+.middlecontainer{
+    width: 90%;
+    height: auto;
+ 
+ 
+   
+
+}
+.supportContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+
+}
+.smallcontainertwo{
+gap: 3rem;
+   justify-content: space-around;
+   align-items: center;
+   height: auto;
+   width: 100%;
+}
+.ContainerFlex{
+    padding: 60px 10% 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    flex-wrap: wrap;
+   
+}
+.boxwhite1{
+    width: 300px;
+    height: 130px;
+    background-color: #ffffff;
+    box-shadow: rgba(255, 255, 255, 1.897) 0px 5px 15px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+

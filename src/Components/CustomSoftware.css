@@ -150,3 +150,28 @@
 .child4 h1 {
   margin: auto 5rem;
 }
+
+@media screen and (max-width:768px) {
+  .middleheading h1{
+    margin: auto -3rem !important;
+  }
+  .parent{
+    width: 100%;
+  }
+  .parent .child4 {
+    width: 100%;
+  }
+
+}
+@media screen and (max-width:820px) {
+  .middleheading h1{
+    margin: auto -3rem !important;
+  }
+  .parent{
+    width: 100%;
+  }
+  .parent .child4 {
+    width: 100%;
+  }
+
+}

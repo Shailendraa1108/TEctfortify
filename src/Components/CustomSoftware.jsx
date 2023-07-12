@@ -1,5 +1,7 @@
 import React from "react";
 import "./CustomSoftware.css";
+import CustomSectionFive from "./CustomSectionFive";
+import CustomSectionSix from "./CustomSectionSix";
 function CustomSoftware() {
   return (
     <>
@@ -15,7 +17,7 @@ function CustomSoftware() {
 
       <div className="container2"></div>
       <div className="container3">
-        <div>
+        <div className="middleheading">
           <h1 style={{ fontSize: "50px", color: "white", padding: "2rem" }}>
             Software Development Engineering Services
           </h1>
@@ -69,6 +71,9 @@ function CustomSoftware() {
           </div>
         </div>
       </div>
+      <section>
+        <CustomSectionFive />
+      </section>
     </>
   );
 }
