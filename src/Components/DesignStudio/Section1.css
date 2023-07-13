@@ -1,0 +1,228 @@
+@media screen and (max-width: 768px) {
+  .section4Child {
+    gap: 34px !important;
+  }
+  .section4 {
+    padding-top: 4rem;
+  }
+  .FlexDesign {
+    flex-wrap: wrap !important;
+  }
+  .Width100DS {
+    max-width: 100% !important;
+  }
+  .sectionChildDS img {
+    padding: 20px;
+  }
+  .sectionChildDS img {
+    width: 100% !important;
+    height: 100% !important;
+}
+.Section7Child {
+    padding: 85px 23% 0px !important;
+  
+}
+.form__form {
+    width: 100%;
+    max-width: 813px !important;
+    
+}
+}
+@media screen and (max-width: 868px) {
+  .section4Child {
+    gap: 34px !important;
+  }
+  .section4 {
+    padding-top: 4rem;
+  }
+  .FlexDesign {
+    flex-wrap: wrap !important;
+  }
+  .Width100DS {
+    max-width: 100% !important;
+  }
+  .sectionChildDS img {
+    padding: 20px;
+  }
+  .sectionChildDS img {
+    width: 100% !important;
+    height: 100% !important;
+}
+.Section7Child {
+    padding: 85px 23% 0px !important;
+  
+}
+.form__form {
+    width: 100%;
+    max-width: 813px !important;
+    
+}
+}
+
+
+.containerDesignStudio {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(230, 214, 214);
+}
+.positionfixed {
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.form__form {
+  width: 100%;
+  max-width: 700px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+  height: auto;
+}
+.form__form input {
+  outline: none;
+  flex: 1;
+  padding: 1rem;
+  border: none;
+}
+
+.DesignStudioIMage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 8, 51, 0.6), rgba(0, 8, 51, 0.6)),
+    url("../../../public/images/young-woman-using-laptop-dark-room.jpg");
+  width: 100%;
+  min-height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.DesignStudioIMage2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 8, 51, 0.6), rgba(0, 8, 0, 0.1)),
+    url("../../../public/images/18084-NROYOT.jpg");
+  width: 100%;
+  min-height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* section4 apply css */
+
+.section4 {
+  width: 100%;
+  height: auto;
+  background: url("https://www.okoders.com/static/media/Rectangle1.25248ef28e4bbbf7c061631e39fa9e9f.svg")
+    rgb(9, 37, 50);
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.section4Child {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+}
+.back1 {
+  background-color: rgb(255, 172, 17);
+  width: 80%;
+  padding: 4rem;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.backg3 {
+  background-color: hsl(3, 100%, 74%);
+  padding: 4rem;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.back2 {
+  background-color: rgb(0, 255, 255);
+  padding: 4rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  width: 90%;
+  border-radius: 12px;
+}
+
+/* section5 start scss */
+
+.section5DS {
+  width: 100%;
+  height: auto;
+  background: rgb(9, 37, 50);
+  color: rgb(255, 255, 255);
+}
+.section5DSChild {
+  width: 100%;
+  text-align: center;
+  padding: 4rem;
+}
+.section5DSChild h1 {
+  /* margin: 0px; */
+  font-size: 42px;
+  /* font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.167;
+    letter-spacing: 0em;
+    max-width: 650px;
+    text-align: center;
+    color: inherit; */
+}
+.section5DSChild p {
+  font-size: 40px;
+
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  /* font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    max-width: 900px;
+    text-align: center;
+    color: inherit; */
+}
+.FlexDesign {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* section css ds6 */
+.section6DS {
+  width: 100%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  background: rgb(9, 37, 50);
+}
+.sectionChildDS {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 60px 10% 10px;
+}
+.sectionChildDS img {
+  width: 80px;
+  height: 80px;
+}
