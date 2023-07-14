@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { motion } from "framer-motion";
+import { animate, motion } from "framer-motion";
 import "./Homepage.css";
 import img1 from "../Components/image/handshake.jpg";
 
@@ -62,21 +62,84 @@ function HomePage() {
   };
 
   console.log(toggle);
+  const animations = {
+    h1: {
+        initial: {
+            x: "-100%",
+            opacity: 0,
+        },
+        whileInView: {
+            x: 0,
+            opacity: 1,
+        },
+    },
+    button: {
+        initial: {
+            y: 0,
+            opacity: 0,
+        },
+        whileInView: {
+            y: "-100%",
+            opacity: 1,
+        },
+    },
+    p: {
+        initial: {
+            x: "-100%",
+            opacity: 0,
+        },
+        whileInView: {
+            x: 0,
+            opacity: 1,
+        },
+    },
+    button: {
+        initial: {
+            y: "-100%",
+            opacity: 0,
+        },
+        whileInView: {
+            y: 0,
+            opacity: 1,
+        },
+    },
+};
+const Cleincount=useRef(null)
+const projectCount=useRef(null)
+const projectCount2=useRef(null)
+const animationCleintProject1=()=>{
+  animate(0,50,{
+      duartion:1,
+      onUpdate:(v)=>(Cleincount.current.textContent=v.toFixed())
+  })
+      }
+  const animationProjectsCount2=()=>{
+      animate(0, 50, {
+          duration:1,
+          onUpdate:(v)=>(projectCount.current.textContent=v.toFixed())
+      }
+  )}
+  const animationProjectsCount3=()=>{
+      animate(0, 50, {
+          duration:1,
+          onUpdate:(v)=>(projectCount2.current.textContent=v.toFixed())
+      }
+  )}
   return (
     <>
       <section className="hero">
         <div className="containerone">
           <div className="width-50">
             <div className="Ver-center">
-              <div>
-                <h3>TECFORTIFY</h3>
-                <h1>Design Studio</h1>
-                <p>Service thats lead the why</p>
-                <button className="button-knowmore">
+              <motion.div>
+                <motion.h1 {...animations.h1} style={{}}>TECFORTIFY</motion.h1>
+                <motion.h1  {...animations.h1} >Design Studio</motion.h1>
+                <motion.p  {...animations.h1} >Service thats lead the why</motion.p>
+                <motion.button className="button-knowmore" {...animations.h1}>
                   {" "}
                   <span>KNOW MORE</span>
-                </button>
-              </div>
+                </motion.button>
+              </motion.div>
             </div>
           </div>
 
@@ -148,7 +211,7 @@ function HomePage() {
           >
             <div className="Ver-centerthree">
               <div style={{ display: "flex" }} className="plusitem">
-                <h1>50+</h1>
+                <motion.h1  ref={Cleincount}        whileInView={animationCleintProject1}>50+</motion.h1>
                 &nbsp; &nbsp; &nbsp;
                 <p>Employees in Team</p>
               </div>
@@ -158,7 +221,7 @@ function HomePage() {
           <div className="width33">
             <div className="Ver-centerthree">
               <div style={{ display: "flex" }} className="plusitem">
-                <h1>50+</h1>
+                <motion.h1 ref={projectCount}        whileInView={animationProjectsCount2}>50+</motion.h1>
                 &nbsp; &nbsp; &nbsp;
                 <p>Employees in Team</p>
               </div>
@@ -167,7 +230,7 @@ function HomePage() {
           <div className="width33">
             <div className="Ver-centerthree">
               <div style={{ display: "flex" }} className="plusitem">
-                <h1>50+</h1>
+                <motion.h1 ref={projectCount2}        whileInView={animationProjectsCount3}>50+</motion.h1>
                 &nbsp; &nbsp; &nbsp;
                 <p>Employees in Team</p>
               </div>

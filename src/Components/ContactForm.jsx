@@ -26,15 +26,16 @@ function ContactForm() {
 
               <div>
                 <label>Description</label>
-                {/* <textarea
+                <textarea
                   id="w3review"
                   name="w3review"
                   rows="4"
                   cols="50"
-                >
-                  {" "}
-                  all web development technologies.
-                </textarea> */}
+                  
+              
+                 
+                  type="text"
+                />
               </div>
               <div></div>
               <button className="button-knowmore">

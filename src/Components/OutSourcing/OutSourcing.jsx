@@ -1,11 +1,35 @@
 import React from "react";
 import "./OutSourcing.css";
 import Analysis from "../Analysis";
+import {motion} from 'framer-motion'
 function OutSourcing() {
+  const animations = {
+    whileInView: {
+      x: 0,
+      y: 0,
+      opacity: 1,
+    },
+    one: {
+      x: "0",
+      opacity: 0,
+    },
+    twoandthree: {
+      y: "-100%",
+      opacity: 0,
+    },
+
+    four: {
+      x: "100%",
+      opacity: 0,
+    },
+  };
   return (
     <>
       <div className="out">
-        <form className="search">
+        <motion.form className="search"
+           whileInView={animations.whileInView}
+           initial={animations.twoandthree}
+        >
           <input placeholder="Email"></input>
           <button className="btn">
             {" "}
@@ -15,7 +39,7 @@ function OutSourcing() {
               GET START
             </span>
           </button>
-        </form>
+        </motion.form>
       </div>
       {/* section 2 */}
 

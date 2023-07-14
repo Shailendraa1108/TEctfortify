@@ -291,15 +291,16 @@ function HomeSection() {
 
                     <div>
                       <label>Description</label>
-                      {/* <textarea
-                        id="w3review"
-                        name="w3review"
-                        rows="4"
-                        cols="50"
-                      >
-                        {" "}
-                        all web development technologies.
-                      </textarea> */}
+                      <textarea
+                  id="w3review"
+                  name="w3review"
+                  rows="4"
+                  cols="50"
+                  
+              
+                 
+                  type="text"
+                />
                     </div>
                     <div></div>
                     <button className="button-knowmore">

@@ -20,6 +20,10 @@
   align-items: center;
   margin: 0 -2%;
 }
+.width-50 img{
+  filter: drop-shadow(0 0 100px rgba(238, 232, 232, 0.6777)) hue-rotate(150deg);
+  animation: upupupdowmdowm 0.6s infinite linear alternate;
+}
 .widthone-25 {
   width: 15%;
   height: 90%;
@@ -99,9 +103,35 @@ div img {
       hsl(0 0% 0% / 0)
     );
   }
+  @keyframes animateSvg{
+    to{
+        transform: translate(-50%,-10px);
+    }
+  }
+  @keyframes upanddown{
+    to{
+        transform: translateY(-5px);
+    }
+  }
+  
+  @keyframes upanddowmdowm{
+    to{
+        transform: translate(-5%,-5%);
+        
+    }
+  }
+  @keyframes upupupdowmdowm{
+    to{
+        transform: translate(-5px,-5px);
+        
+    }
+  }
   .partnerIMage img {
     width: 86% !important;
+    filter: drop-shadow(0 0 100px rgba(238, 232, 232, 0.6777)) hue-rotate(150deg);
+    animation: animateSvg 0.7s infinite linear alternate;
   }
+  
   .containeronefour {
     flex-direction: column !important;
   }

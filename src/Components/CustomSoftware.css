@@ -105,6 +105,29 @@
 }
 
 /* section 4 custom */
+@keyframes animateSvg{
+  to{
+      transform: translate(-50%,-10px);
+  }
+}
+@keyframes upanddown{
+  to{
+      transform: translateY(-5px);
+  }
+}
+
+@keyframes upanddowmdowm{
+  to{
+      transform: translate(-5%,-5%);
+      
+  }
+}
+@keyframes upupupdowmdowm{
+  to{
+      transform: translate(-5px,-5px);
+      
+  }
+}
 .grandParent4 {
   width: 100%;
   height: auto;

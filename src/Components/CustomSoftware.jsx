@@ -2,17 +2,43 @@ import React from "react";
 import "./CustomSoftware.css";
 import CustomSectionFive from "./CustomSectionFive";
 import CustomSectionSix from "./CustomSectionSix";
+import { motion } from "framer-motion";
 function CustomSoftware() {
+  const animations = {
+    whileInView: {
+      x: 0,
+      y: 0,
+      opacity: 1,
+    },
+    one: {
+      x: "-100%",
+      opacity: 0,
+    },
+    twoandthree: {
+      y: "-100%",
+      opacity: 0,
+    },
+
+    four: {
+      x: "100%",
+      opacity: 0,
+    },
+  };
   return (
     <>
-      <div className="container">
-        <form className="Search-bar">
+      <div className="container"
+  
+      >
+        <motion.form className="Search-bar"
+          whileInView={animations.whileInView}
+          initial={animations.one}
+        >
           <input placeholder="Enter Your Email"></input>
           <button className="btn">
             {" "}
             <span>KNOW MORE</span>
           </button>
-        </form>
+        </motion.form>
       </div>
 
       <div className="container2"></div>
@@ -41,33 +67,72 @@ function CustomSoftware() {
       <div className="containerbox4">
         <div className="grandParent4">
           <div className="parent">
-            <div className="child4 child1">
+            <motion.div className="child4 child1" 
+             whileInView={animations.whileInView}
+             initial={animations.one}
+            >
               <h1>Financial Management</h1>
-            </div>
-            <div className="child4 child2">
+            </motion.div>
+            <motion.div className="child4 child2"
+               whileInView={animations.whileInView}
+               initial={animations.twoandthree}
+            >
               <h1>Workforce Management</h1>
-            </div>
-            <div className="child4 child3">
+            </motion.div>
+            <motion.div className="child4 child3"
+             whileInView={animations.whileInView}
+             initial={animations.four}
+                    transition={{
+                      delay: 0.2,
+                    }}
+            >
               <h1>E-learning</h1>
-            </div>
-            <div className="child4 child4">
+            </motion.div>
+            <motion.div className="child4 child4"
+              whileInView={animations.whileInView}
+              initial={animations.one}
+            >
               <h1>Content Management System</h1>
-            </div>
-            <div className="child4 child5">
+            </motion.div>
+            <motion.div className="child4 child5"
+             whileInView={animations.whileInView}
+             initial={animations.four}
+                    transition={{
+                      delay: 0.2,
+                    }}
+            >
               <h1>Full track Devlopers</h1>
-            </div>
-            <div className="child4 child6">
+            </motion.div>
+            <motion.div className="child4 child6" 
+             whileInView={animations.whileInView}
+             initial={animations.four}
+                    transition={{
+                      delay: 0.2,
+                    }}
+            >
               <h1>Web App Portals</h1>
-            </div>
-            <div className="child4 child7">
+            </motion.div>
+            <motion.div className="child4 child7"
+             whileInView={animations.whileInView}
+             initial={animations.four}
+                    transition={{
+                      delay: 0.2,
+                    }}
+            >
               <h1>Devlopment IOS & Android</h1>
-            </div>
-            <div className="child4 child8">
+            </motion.div>
+            <motion.div className="child4 child8"
+              whileInView={animations.whileInView}
+              initial={animations.twoandthree}
+            >
               <h1>EnterPrise resource learning (ERP)</h1>
-            </div>
-            <div className="child4 child9">
+            </motion.div>
+            <motion.div className="child4 child9"
+             whileInView={animations.whileInView}
+             initial={animations.twoandthree}
+            >
               <h1>Web devlopment</h1>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

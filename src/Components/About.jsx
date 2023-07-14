@@ -61,7 +61,7 @@ function About() {
         <div className="containeAbout">
           <div className="imagebOx">
             <img
-              src="images/Founder.jpg"
+              src="images/playful-executives-laughing-office.jpg"
               alt="tect"
             />
           </div>
